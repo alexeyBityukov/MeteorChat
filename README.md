@@ -1,6 +1,7 @@
 # MeteorChat
 
 Для запуска проекта необходимо установить Meteor [от сюда](https://www.meteor.com/developers/install)
+
 Затем нужно зайти в директорию и вызвать команды по очереди
 
 `meteor npm install` - для установки зависимостей
