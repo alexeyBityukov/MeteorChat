@@ -1,0 +1,14 @@
+<template name="initForm">
+  <div class="initForm">
+    <form>
+      <h3>Введите ваше имя</h3>
+      <input />
+      <input type="submit" value="Войти в чат" />
+      {{#if errorBadName}}
+      <div class="errorBadName">
+        <label>Пользователь с таким именем уже существует</label>
+      </div>
+      {{/if}}
+    </form>
+  </div>
+</template>

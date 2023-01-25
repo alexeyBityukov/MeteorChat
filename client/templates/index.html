@@ -1,0 +1,8 @@
+<template name="index">
+  {{#if isUserInited}}
+  <div>
+    <h3>История сообщений</h3>
+    {{> messages}}
+  </div>
+  {{> inputNewMessage}} {{else}} {{> initForm}} {{/if}}
+</template>

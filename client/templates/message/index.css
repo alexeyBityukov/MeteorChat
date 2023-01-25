@@ -1,0 +1,16 @@
+.rootMessage {
+  margin: 10px 0;
+  background: #eeeeee;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.userNameMessage {
+  margin: 0;
+  font-size: 0.75em;
+  color: gray;
+}
+
+.contentMessage {
+  padding-left: 10px;
+}
